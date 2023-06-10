@@ -1,5 +1,0 @@
-SIO-XS Version History
-
-
-v1	30/09/2021
-v1.1	10/06/2021
