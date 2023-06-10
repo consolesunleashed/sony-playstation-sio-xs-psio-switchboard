@@ -17,3 +17,5 @@ SIO-XS for eXtra Small. SIO-XS for Sans, in that it is sans-modchip. SIO-XS in t
 SIO-XS was designed from the ground up but is based entirely on Voultar’s work and SIO-X. So all credit to Voultar.
 
 ## License
+
+If you use this in any way, shape or form, you must include a link back to this repository and mention me by name on any sales pages and social media posts. Not only will this help me to keep designing mod kits and offering them to the community, but it is basic common courtesy as well. Don't be a douchebag. :)
