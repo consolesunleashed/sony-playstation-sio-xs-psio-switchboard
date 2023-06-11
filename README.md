@@ -12,6 +12,11 @@ For my own uses I prefer a separate modchip install so I decided to design the S
 
 SIO-XS for eXtra Small. SIO-XS for Sans, in that it is sans-modchip. SIO-XS in that it removes the ‘excess’ so it is just a PSIO switchboard.
 
+## Version History
+
+SIO-XS v1 - 30/09/2021
+SIO-XS v1.1 - 10/06/2023
+
 ## Credits and Attributions
 
 SIO-XS was designed from the ground up but is based entirely on Voultar’s work and SIO-X. So all credit to Voultar.
