@@ -90,7 +90,7 @@
 <library name="Consoles Unleashed Eagle Parts Library">
 <description>&lt;p&gt;&lt;b&gt;Consoles Unleashed Eagle Parts Library&lt;/b&gt;&lt;/p&gt;</description>
 <packages>
-<package name="R0805" urn="urn:adsk.eagle:footprint:23045/1" locally_modified="yes">
+<package name="R0805">
 <description>Resistor - 0805</description>
 <wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
 <wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
@@ -100,13 +100,13 @@
 <wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
 <smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
 <smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-0.635" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
 <rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
 </package>
-<package name="C0805" urn="urn:adsk.eagle:footprint:23124/1" locally_modified="yes">
+<package name="C0805">
 <description>Capacitor - 0805</description>
 <wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
@@ -122,69 +122,81 @@
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
 </package>
-<package name="CIRCLE-1,5X1,5" urn="urn:adsk.eagle:footprint:30827/1" locally_modified="yes">
+<package name="CIRCLE-1,5X1,5">
+<description>Pad - Circle - 1.5mm x 1.5mm</description>
 <smd name="1" x="0" y="0" dx="1.5" dy="1.5" layer="1" roundness="100"/>
-<text x="-1.27" y="0" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-</package>
-<package name="CIRCLE-2X2" urn="urn:adsk.eagle:footprint:30822/1" locally_modified="yes">
-<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
-<smd name="1" x="0" y="0" dx="2" dy="2" layer="1" roundness="100"/>
-<text x="-1.27" y="0" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-</package>
-<package name="RECTANGLE-1,27X2,54" urn="urn:adsk.eagle:footprint:30823/1" locally_modified="yes">
-<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
-<smd name="1" x="0" y="0" dx="1.27" dy="2.54" layer="1"/>
-<text x="-1.27" y="0" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="0" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="TSSOP-14">
-<smd name="1" x="-2.938" y="1.95" dx="1.475" dy="0.35" layer="1"/>
-<smd name="2" x="-2.938" y="1.3" dx="1.475" dy="0.35" layer="1"/>
-<smd name="3" x="-2.938" y="0.65" dx="1.475" dy="0.35" layer="1"/>
-<smd name="4" x="-2.938" y="0" dx="1.475" dy="0.35" layer="1"/>
-<smd name="5" x="-2.938" y="-0.65" dx="1.475" dy="0.35" layer="1"/>
-<smd name="6" x="-2.938" y="-1.3" dx="1.475" dy="0.35" layer="1"/>
-<smd name="7" x="-2.938" y="-1.95" dx="1.475" dy="0.35" layer="1"/>
-<smd name="8" x="2.938" y="-1.95" dx="1.475" dy="0.35" layer="1"/>
-<smd name="9" x="2.938" y="-1.3" dx="1.475" dy="0.35" layer="1"/>
-<smd name="10" x="2.938" y="-0.65" dx="1.475" dy="0.35" layer="1"/>
-<smd name="11" x="2.938" y="0" dx="1.475" dy="0.35" layer="1"/>
-<smd name="12" x="2.938" y="0.65" dx="1.475" dy="0.35" layer="1"/>
-<smd name="13" x="2.938" y="1.3" dx="1.475" dy="0.35" layer="1"/>
-<smd name="14" x="2.938" y="1.95" dx="1.475" dy="0.35" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-3.925" y1="2.8" x2="3.925" y2="2.8" width="0.05" layer="51"/>
-<wire x1="3.925" y1="2.8" x2="3.925" y2="-2.8" width="0.05" layer="51"/>
-<wire x1="3.925" y1="-2.8" x2="-3.925" y2="-2.8" width="0.05" layer="51"/>
-<wire x1="-3.925" y1="-2.8" x2="-3.925" y2="2.8" width="0.05" layer="51"/>
+<smd name="1" x="-2.9" y="1.95" dx="1.5" dy="0.35" layer="1"/>
+<smd name="2" x="-2.9" y="1.3" dx="1.5" dy="0.35" layer="1"/>
+<smd name="3" x="-2.9" y="0.65" dx="1.5" dy="0.35" layer="1"/>
+<smd name="4" x="-2.9" y="0" dx="1.5" dy="0.35" layer="1"/>
+<smd name="5" x="-2.9" y="-0.65" dx="1.5" dy="0.35" layer="1"/>
+<smd name="6" x="-2.9" y="-1.3" dx="1.5" dy="0.35" layer="1"/>
+<smd name="7" x="-2.9" y="-1.95" dx="1.5" dy="0.35" layer="1"/>
+<smd name="8" x="2.9" y="-1.95" dx="1.5" dy="0.35" layer="1"/>
+<smd name="9" x="2.9" y="-1.3" dx="1.5" dy="0.35" layer="1"/>
+<smd name="10" x="2.9" y="-0.65" dx="1.5" dy="0.35" layer="1"/>
+<smd name="11" x="2.9" y="0" dx="1.5" dy="0.35" layer="1"/>
+<smd name="12" x="2.9" y="0.65" dx="1.5" dy="0.35" layer="1"/>
+<smd name="13" x="2.9" y="1.3" dx="1.5" dy="0.35" layer="1"/>
+<smd name="14" x="2.9" y="1.95" dx="1.5" dy="0.35" layer="1"/>
+<text x="-3.81" y="3.175" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-3.937" y1="2.8" x2="3.937" y2="2.8" width="0.05" layer="39"/>
+<wire x1="3.937" y1="2.8" x2="3.937" y2="-2.8" width="0.05" layer="39"/>
+<wire x1="3.937" y1="-2.8" x2="-3.937" y2="-2.8" width="0.05" layer="39"/>
+<wire x1="-3.937" y1="-2.8" x2="-3.937" y2="2.8" width="0.05" layer="39"/>
 <wire x1="-2.2" y1="2.5" x2="2.2" y2="2.5" width="0.1" layer="51"/>
 <wire x1="2.2" y1="2.5" x2="2.2" y2="-2.5" width="0.1" layer="51"/>
 <wire x1="2.2" y1="-2.5" x2="-2.2" y2="-2.5" width="0.1" layer="51"/>
 <wire x1="-2.2" y1="-2.5" x2="-2.2" y2="2.5" width="0.1" layer="51"/>
-<wire x1="-2.2" y1="1.85" x2="-1.55" y2="2.5" width="0.1" layer="51"/>
-<wire x1="-1.85" y1="2.5" x2="1.85" y2="2.5" width="0.2" layer="21"/>
-<wire x1="1.85" y1="2.5" x2="1.85" y2="-2.5" width="0.2" layer="21"/>
-<wire x1="1.85" y1="-2.5" x2="-1.85" y2="-2.5" width="0.2" layer="21"/>
-<wire x1="-1.85" y1="-2.5" x2="-1.85" y2="2.5" width="0.2" layer="21"/>
-<wire x1="-3.675" y1="2.525" x2="-2.2" y2="2.525" width="0.2" layer="21"/>
+<wire x1="-1.875" y1="2.5" x2="1.875" y2="2.5" width="0.127" layer="21"/>
+<wire x1="1.875" y1="2.5" x2="1.875" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="1.875" y1="-2.5" x2="-1.875" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-1.875" y1="-2.5" x2="-1.875" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-3.67" y1="2.5" x2="-2.11" y2="2.5" width="0.127" layer="21"/>
 </package>
-<package name="C0603" urn="urn:adsk.eagle:footprint:23123/1" locally_modified="yes">
-<description>Capacitor - 0603</description>
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<package name="SOIC-14">
+<smd name="1" x="-2.413" y="3.81" dx="2.286" dy="0.6096" layer="1"/>
+<smd name="2" x="-2.413" y="2.54" dx="2.286" dy="0.6096" layer="1"/>
+<smd name="3" x="-2.413" y="1.27" dx="2.286" dy="0.6096" layer="1"/>
+<smd name="4" x="-2.413" y="0" dx="2.286" dy="0.6096" layer="1"/>
+<smd name="5" x="-2.413" y="-1.27" dx="2.286" dy="0.6096" layer="1"/>
+<smd name="6" x="-2.413" y="-2.54" dx="2.286" dy="0.6096" layer="1"/>
+<smd name="7" x="-2.413" y="-3.81" dx="2.286" dy="0.6096" layer="1"/>
+<smd name="8" x="2.413" y="-3.81" dx="2.286" dy="0.6096" layer="1"/>
+<smd name="9" x="2.413" y="-2.54" dx="2.286" dy="0.6096" layer="1"/>
+<smd name="10" x="2.413" y="-1.27" dx="2.286" dy="0.6096" layer="1"/>
+<smd name="11" x="2.413" y="0" dx="2.286" dy="0.6096" layer="1"/>
+<smd name="12" x="2.413" y="1.27" dx="2.286" dy="0.6096" layer="1"/>
+<smd name="13" x="2.413" y="2.54" dx="2.286" dy="0.6096" layer="1"/>
+<smd name="14" x="2.413" y="3.81" dx="2.286" dy="0.6096" layer="1"/>
+<wire x1="-1.9558" y1="-4.318" x2="1.9558" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="1.9558" y1="-4.318" x2="1.9558" y2="4.318" width="0.1524" layer="51"/>
+<wire x1="1.9558" y1="4.318" x2="-0.3048" y2="4.318" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="4.318" x2="-1.9558" y2="4.318" width="0.1524" layer="51"/>
+<wire x1="-1.9558" y1="4.318" x2="-1.9558" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="4.3434" x2="-0.3048" y2="4.318" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-4.064" y1="-4.6228" x2="-4.064" y2="4.6228" width="0.1524" layer="39"/>
+<wire x1="-4.064" y1="4.6228" x2="-2.4638" y2="4.6228" width="0.1524" layer="39"/>
+<wire x1="-2.4638" y1="4.6228" x2="-2.4638" y2="4.826" width="0.1524" layer="39"/>
+<wire x1="-2.4638" y1="4.826" x2="2.4638" y2="4.826" width="0.1524" layer="39"/>
+<wire x1="2.4638" y1="4.826" x2="2.4638" y2="4.6228" width="0.1524" layer="39"/>
+<wire x1="4.064" y1="4.6228" x2="2.4638" y2="4.6228" width="0.1524" layer="39"/>
+<wire x1="4.064" y1="4.6228" x2="4.064" y2="-4.6228" width="0.1524" layer="39"/>
+<wire x1="4.064" y1="-4.6228" x2="2.4638" y2="-4.6228" width="0.1524" layer="39"/>
+<wire x1="2.4638" y1="-4.6228" x2="2.4638" y2="-4.826" width="0.1524" layer="39"/>
+<wire x1="2.4638" y1="-4.826" x2="-2.4638" y2="-4.826" width="0.1524" layer="39"/>
+<wire x1="-2.4638" y1="-4.826" x2="-2.4638" y2="-4.6228" width="0.1524" layer="39"/>
+<wire x1="-4.064" y1="-4.6228" x2="-2.4638" y2="-4.6228" width="0.1524" layer="39"/>
+<text x="-3.81" y="5.08" size="1.27" layer="25" rot="SR0">&gt;Name</text>
+<wire x1="-1.905" y1="4.445" x2="1.905" y2="4.445" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-4.445" x2="1.905" y2="-4.445" width="0.127" layer="21"/>
+<circle x="0" y="4.445" radius="0.4" width="0" layer="21"/>
 </package>
-<package name="R0603" urn="urn:adsk.eagle:footprint:23044/1" locally_modified="yes">
+<package name="R0603">
 <description>Resistor - 0603</description>
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
 <wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
@@ -194,27 +206,60 @@
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
 <smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
+<package name="C0603">
+<description>Capacitor - 0603</description>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="C1206" urn="urn:adsk.eagle:footprint:23125/1">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="CIRCLE-2X2">
+<description>Pad - Circle - 2mm x 2mm</description>
+<smd name="1" x="0" y="0" dx="2" dy="2" layer="1" roundness="100"/>
+<text x="0" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="RECTANGLE-1,27X2,54">
+<description>Pad - Rectangle - 1.27mm x 1.27mm</description>
+<smd name="1" x="0" y="0" dx="1.27" dy="2.54" layer="1"/>
+<text x="0" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="RECTANGLE-1,5X7">
+<description>Pad - Rectangle - 1.5mm x 7mm</description>
+<smd name="1" x="0" y="0" dx="1.5" dy="7" layer="1"/>
+<text x="0" y="3.905" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
-<packages3d>
-<package3d name="5-2,5" urn="urn:adsk.eagle:package:30845/1" type="box">
-<description>THROUGH-HOLE PAD</description>
-<packageinstances>
-<packageinstance name="CIRCLE-1,5X1,5"/>
-</packageinstances>
-</package3d>
-<package3d name="SMD2,54-5,08" urn="urn:adsk.eagle:package:30841/1" locally_modified="yes" type="box">
-<description>SMD PAD</description>
-<packageinstances>
-<packageinstance name="RECTANGLE-1,27X2,54"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
 <symbol name="RESISTOR-EU">
 <wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
@@ -328,10 +373,19 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="C1206" package="C1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
-<deviceset name="PADS" prefix="PAD">
-<description>&lt;b&gt;PADS&lt;/b&gt; connect wires to PCB</description>
+<deviceset name="PADS" prefix="PAD" uservalue="yes">
+<description>PADS to connect wires to PCB</description>
 <gates>
 <gate name="G$1" symbol="PAD" x="0" y="0"/>
 </gates>
@@ -340,9 +394,6 @@
 <connects>
 <connect gate="G$1" pin="P" pad="1"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30845/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -359,9 +410,14 @@
 <connects>
 <connect gate="G$1" pin="P" pad="1"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30841/1"/>
-</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="RECTANGLE-1,5X7" package="RECTANGLE-1,5X7">
+<connects>
+<connect gate="G$1" pin="P" pad="1"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -369,12 +425,33 @@
 </devices>
 </deviceset>
 <deviceset name="74HC4066" prefix="IC">
-<description>The 74HC4066 is a quad single pole, single throw analog switch.</description>
+<description>74HC4066 quad SPST analog switch.</description>
 <gates>
 <gate name="G$1" symbol="74HC4066" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TSSOP-14">
+<device name="TSSOP-14" package="TSSOP-14">
+<connects>
+<connect gate="G$1" pin="1E" pad="13"/>
+<connect gate="G$1" pin="1Y" pad="1"/>
+<connect gate="G$1" pin="1Z" pad="2"/>
+<connect gate="G$1" pin="2E" pad="5"/>
+<connect gate="G$1" pin="2Y" pad="4"/>
+<connect gate="G$1" pin="2Z" pad="3"/>
+<connect gate="G$1" pin="3E" pad="6"/>
+<connect gate="G$1" pin="3Y" pad="8"/>
+<connect gate="G$1" pin="3Z" pad="9"/>
+<connect gate="G$1" pin="4E" pad="12"/>
+<connect gate="G$1" pin="4Y" pad="11"/>
+<connect gate="G$1" pin="4Z" pad="10"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOIC-14" package="SOIC-14">
 <connects>
 <connect gate="G$1" pin="1E" pad="13"/>
 <connect gate="G$1" pin="1Y" pad="1"/>
@@ -435,10 +512,10 @@
 </class>
 </classes>
 <parts>
-<part name="CI" library="Consoles Unleashed Eagle Parts Library" deviceset="PADS" device="CIRCLE-1,5X1,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="CI"/>
-<part name="CE" library="Consoles Unleashed Eagle Parts Library" deviceset="PADS" device="CIRCLE-1,5X1,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="CE"/>
-<part name="XI" library="Consoles Unleashed Eagle Parts Library" deviceset="PADS" device="CIRCLE-1,5X1,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="XI"/>
-<part name="XE" library="Consoles Unleashed Eagle Parts Library" deviceset="PADS" device="CIRCLE-1,5X1,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="XE"/>
+<part name="CI" library="Consoles Unleashed Eagle Parts Library" deviceset="PADS" device="CIRCLE-1,5X1,5" value="CI"/>
+<part name="CE" library="Consoles Unleashed Eagle Parts Library" deviceset="PADS" device="CIRCLE-1,5X1,5" value="CE"/>
+<part name="XI" library="Consoles Unleashed Eagle Parts Library" deviceset="PADS" device="CIRCLE-1,5X1,5" value="XI"/>
+<part name="XE" library="Consoles Unleashed Eagle Parts Library" deviceset="PADS" device="CIRCLE-1,5X1,5" value="XE"/>
 <part name="R1" library="Consoles Unleashed Eagle Parts Library" deviceset="RESISTORS" device="R0805" value="47Kilohm"/>
 <part name="R2" library="Consoles Unleashed Eagle Parts Library" deviceset="RESISTORS" device="R0805" value="10Kilohm"/>
 <part name="R3" library="Consoles Unleashed Eagle Parts Library" deviceset="RESISTORS" device="R0805" value="10Kilohm"/>
@@ -446,8 +523,8 @@
 <part name="C1" library="Consoles Unleashed Eagle Parts Library" deviceset="CAPACITORS" device="C0805" value="0.1uF"/>
 <part name="+3V1" library="Consoles Unleashed Eagle Parts Library" deviceset="+3V3" device=""/>
 <part name="GND1" library="Consoles Unleashed Eagle Parts Library" deviceset="GND" device=""/>
-<part name="CE1" library="Consoles Unleashed Eagle Parts Library" deviceset="PADS" device="CIRCLE-1,5X1,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="CE"/>
-<part name="IC1" library="Consoles Unleashed Eagle Parts Library" deviceset="74HC4066" device=""/>
+<part name="CE1" library="Consoles Unleashed Eagle Parts Library" deviceset="PADS" device="CIRCLE-1,5X1,5" value="CE"/>
+<part name="IC1" library="Consoles Unleashed Eagle Parts Library" deviceset="74HC4066" device="TSSOP-14"/>
 </parts>
 <sheets>
 <sheet>
@@ -650,11 +727,6 @@
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
 will not be understood (or retained) with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports the association of 3D packages
-with devices in libraries, schematics, and board files. Those 3D
-packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
