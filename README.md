@@ -14,8 +14,8 @@ SIO-XS for eXtra Small. SIO-XS for Sans, in that it is sans-modchip. SIO-XS in t
 
 ## Version History
 
-SIO-XS v1 - 30/09/2021
-SIO-XS v1.1 - 10/06/2023
+- SIO-XS v1 - 30/09/2021
+- SIO-XS v1.1 - 10/06/2023
 
 ## Credits and Attributions
 
